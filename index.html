@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Payment page</title>
+  </head>
+  <body>
+    <div class="whiteContainer">
+      <div class="outerBox">
+        <img src="payment illustration.png" alt="payment illustration" />
+        <div class="innerBox">
+          <p class="courseSelected">
+            course selected :
+            <span class="courseName">Customized Pack</span>
+            <span class="coursePrice">&#8377;1499</span>
+          </p>
+          <div class="coupon">
+            <input
+              type="text"
+              name="search"
+              placeholder="Have any coupon code?"
+            />
+            <button>Apply</button>
+          </div>
+          <div class="coursesBox">
+            <div class="totalCourse">Total Course : <span>4</span></div>
+            <table>
+              <tr>
+                <th>Courses</th>
+                <th>Price</th>
+              </tr>
+              <tr>
+                <td>Web Development</td>
+                <td>&#8377;699</td>
+              </tr>
+              <tr>
+                <td>Web Development</td>
+                <td>&#8377;699</td>
+              </tr>
+              <tr>
+                <td>Web Development</td>
+                <td>&#8377;699</td>
+              </tr>
+              <tr>
+                <td>Web Development</td>
+                <td>&#8377;699</td>
+              </tr>
+            </table>
+            <div class="line"></div>
+            <p class="total">
+              Total <span>(4x699)</span> <span>&#8377;2796</span>
+            </p>
+            <div class="appliedOffer">
+              customized pack Offer applied
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-1.25 17.292l-4.5-4.364 1.857-1.858 2.643 2.506 5.643-5.784 1.857 1.857-7.5 7.643z"
+                />
+              </svg>
+            </div>
+            <p>You Save: <span>&#8377;1297</span></p>
+          </div>
+          <div class="finalTotal">Total : <span>&#8377;1499</span></div>
+          <a href=""><div class="proceed">Proceed to Pay</div></a>
+        </div>
+      </div>
+      <footer>
+        <div><img src="100secure.png" alt="" /></div>
+        <div><img src="secure.png" alt="" /></div>
+        <div><img src="Razorpay.png" alt="" /></div>
+      </footer>
+    </div>
+  </body>
+</html>
